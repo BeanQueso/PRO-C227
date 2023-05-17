@@ -1,6 +1,3 @@
-print('Welcome')
-print("Rules: Dont open it")
-
 message=input ('Enter message you want to encrypt :')
 alphabet="abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+{}|:<>?=-[]\;',./`~ABCDEFGHIJKLMNOPQRSTUVWXYZ "
 key = input("Enter a encrypt key of your Choice (at lease 8 Numbers long): ")
@@ -12,5 +9,5 @@ for i in message:
   encrypt+=alphabet [newposition]
 output = (encrypt)
 
-print ('Encrypted Message: '+ (output) )
-print ('Encryption Key: '+ (key) )
+print('Encrypted Message: '+ (output) )
+print('Encryption Key: '+ (key))
